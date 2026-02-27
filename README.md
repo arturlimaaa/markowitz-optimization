@@ -104,9 +104,5 @@ The goal is to provide hands-on experience in optimization techniques that could
 
 In this project, we [briefly summarize your findings, e.g., "achieved a X% return vs. Y% for S&P 500"]. Performance analysis highlights the importance of diversification and regular rebalancing. For real money, consider [e.g., incorporating transaction costs or alternative risk measures].
 
-## Contributors
-- [Your Name/Team Members]
-- Course: Math 4235, Worcester Polytechnic Institute (assuming based on location).
-
 ## License
 This project is for educational purposes. No license is specified; use at your own risk for personal learning.
