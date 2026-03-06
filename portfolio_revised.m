@@ -17,7 +17,7 @@ windows = [1, 252;  % jan 2024 - dec 2024
          253, 502]; % jan 2025 - dec 2025
 
 % Weight constraints
-max_weight = 0.25;
+max_weight = 0.3;
 min_weight = -0.1;
 
 % Initializing returns
@@ -26,30 +26,6 @@ overall_return = 1;
 
 % Figure plotting
 figure;
-subplot(3,4,1)
-title("January")
-subplot(3,4,2)
-title("February")
-subplot(3,4,3)
-title("March")
-subplot(3,4,4)
-title("April")
-subplot(3,4,5)
-title("May")
-subplot(3,4,6)
-title("June")
-subplot(3,4,7)
-title("July")
-subplot(3,4,8)
-title("August")
-subplot(3,4,9)
-title("September")
-subplot(3,4,10)
-title("October")
-subplot(3,4,11)
-title("November")
-subplot(3,4,12)
-title("December")
 sgtitle('Efficient Frontiers (Return vs Variance) and Tangent Profiles');
 
 for i = 1:1:12
@@ -95,6 +71,32 @@ for i = 1:1:12
     end
     overall_return = overall_return*(1+returns(i));
 end
+
+subplot(3,4,1)
+title("January")
+subplot(3,4,2)
+title("February")
+subplot(3,4,3)
+title("March")
+subplot(3,4,4)
+title("April")
+subplot(3,4,5)
+title("May")
+subplot(3,4,6)
+title("June")
+subplot(3,4,7)
+title("July")
+subplot(3,4,8)
+title("August")
+subplot(3,4,9)
+title("September")
+subplot(3,4,10)
+title("October")
+subplot(3,4,11)
+title("November")
+subplot(3,4,12)
+title("December")
+
 disp("Monthly Returns:")
 disp(returns)
 disp("Overall 2025 Return: " + overall_return)
